@@ -69,3 +69,20 @@ allowfullscreen></iframe>
 
 
 </table>
+<!--
+
+This is how GET works(Field values put into url)
+http://127.0.0.1:5500/submit?user-name=my_test&my-users-email=nray76066%40gmail.com
+-->
+<form method="GET" action="/submit">
+    <div>
+        Your name
+            <input type="text" name="user-name" required>
+    </div>
+    <div>
+        Your email
+            <input type="email" name="my-users-email" required>
+    </div>
+
+    <input type="submit">
+</form>

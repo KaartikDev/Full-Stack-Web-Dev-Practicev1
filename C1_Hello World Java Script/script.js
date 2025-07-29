@@ -16,7 +16,7 @@ console.log(secVar)
 
 const myString = "This is a string"
 const myBool = true
-const myNum = 33
+let myNum = 33
 const myArr = ["muk",333,false] //Arrays in JS can store multiple data types
 const myUndef = undefined //Datatype is something that has not been defined yet
 const bigInt = 111n // for large integers? investigate later
@@ -33,3 +33,35 @@ const totalFriends = 5
 console. log("total friends", totalFriends)
 const average = sum / totalFriends
 console. log("Average friend age", average)
+
+
+/*
+What is a console?
+its kinda like terminal
+used for debugger sometimes
+*/
+
+
+function makeConsoleLog() {
+    console.log("A FUNCTION", myNum, myArr, myBool)
+}
+
+makeConsoleLog()
+
+function addtoMyNum(incrementBy){
+    myNum = myNum + incrementBy
+}
+console.log(myNum)
+addtoMyNum(5)
+console.log(myNum)
+
+
+function factorial(multiplyBy){
+    if (multiplyBy <= 0){
+        return 1
+    } else {
+        return multiplyBy * factorial(multiplyBy-1)
+    }   
+}
+
+console.log(factorial(5))

@@ -1,0 +1,61 @@
+
+/* the h1 below is a selector */
+h1 {
+    background: yellow;
+}
+
+aside {
+    color: green;
+    background: gray;
+    width: 150px;
+    height: 150px;
+}
+
+div {
+    color: blue;
+    background: white;
+    width: 300px;
+    height: 75px;
+}
+
+div {
+    color: blue;
+    background: white;
+    width: 300px;
+    height: 75px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+body {
+    background: purple;
+}
+
+/* notice syntax of using selector then a  property: value; */
+/* Use inspect on browser then select element and go to styles for debug */
+
+/* class starts with .CLASS_NAME {} */
+
+.pink {
+    color: black;
+    background: pink;
+    width: 100px;
+    height: 100px;
+    border-radius: 25%;
+    text-align: bottom;
+}
+
+.green {
+    color: black;
+    background: green;
+    width: 200px;
+    border-radius: 25%;
+    text-align: left;
+}
+
+/* stylying specfic id for an element */
+#id1 {
+    width: 100px;
+    height: 100px;
+    background: turquoise;
+}

@@ -59,3 +59,7 @@ body {
     height: 100px;
     background: turquoise;
 }
+
+/* Can change inline and block elements with display. Also font size, bold, etc. 
+AKA CSS can break those rules of HTML */
+

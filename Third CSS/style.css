@@ -1,0 +1,26 @@
+
+/* Start means everything */
+* {
+    margin: 0;
+}
+
+#parent {
+    background-color: red;
+    /* vw is the VIEWPORTH WIDTH dimension */
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    /* Center on main axis */
+    justify-content: center;
+    /* Center on normal axis */
+    align-items: center;
+    /* Can also do flex end and flex start for left right */
+}
+
+.child {
+    background-color: turquoise;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}

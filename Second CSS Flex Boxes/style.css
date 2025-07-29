@@ -1,0 +1,34 @@
+body {
+    background-color: lightcoral;
+}
+
+
+.newnewlayout {
+    display: flex;
+    flex-direction: row;
+    /* Wraps to next line if hit window end */
+    flex-wrap: wrap;
+}
+/* selecting div isnide the newnewlayout class */
+.newnewlayout div {
+    background: red;
+    height: 200px;
+    /* Got rid of width as the flex direcrtion is horizontal so we can just flex basis */
+    flex-basis: 200px;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+/* 
+ Flex axis (direction elements added)
+ Cross axis (direction normal to flex axis)
+ Flex basis defines length of item in dir of flex axis
+*/
+
+
+/* How much element needs to shrink proportionaly when window changes size, 0 is no shrink */
+.first {
+    flex-shrink: 0;
+}
+

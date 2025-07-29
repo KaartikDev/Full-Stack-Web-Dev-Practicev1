@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+body {
+    min-height: 110vh;
+    display: flex;
+    flex-direction: column;
+}
+
+nav, footer {
+    flex-shrink: 0;
+}
+
+section {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Position absolute takes it from outside the html stack and finds the next parent relative
+ALSO have relative (give to parent)
+
+Position fixed sticks onto screen even while scrolling, only bound to screen
+Postion sticky tells it where to start sticky
+
+*/
+section span {
+    position: absolute;
+    background-color: blue;
+    width: 80vw;
+    height: 30px;
+    /* 0,0 is at the parent relative left corner*/
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav ul li {
+    padding: 10px;
+    margin: 2px;
+    list-style: none;
+}
+
+#logo {
+    width: 80vw;
+    height: 200px;
+    background: red;
+}
+
+.layer {
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background: gray;
+    border-bottom: 2px solid rgb(57, 56, 56);
+    width: 100%;
+
+}

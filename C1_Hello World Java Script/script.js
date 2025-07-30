@@ -17,7 +17,7 @@ console.log(secVar)
 const myString = "This is a string"
 const myBool = true
 let myNum = 33
-const myArr = ["muk",333,false] //Arrays in JS can store multiple data types
+let myArr = ["muk",333,false] //Arrays in JS can store multiple data types
 const myUndef = undefined //Datatype is something that has not been defined yet
 const bigInt = 111n // for large integers? investigate later
 const myNull = null // null expliclty says it should be blank while undef is that hasnt inilized yet
@@ -65,3 +65,37 @@ function factorial(multiplyBy){
 }
 
 console.log(factorial(5))
+
+
+function addMyObj(frnd){
+    myArr.push(frnd)
+    console.log("adding friend", frnd, "full arr", myArr)
+}
+
+addMyObj(21)
+addMyObj(true)
+
+//Arrays:
+//unshift adds to front while push adds to back
+//myArr.length == length
+//0 indexed
+//myarr.pop() --> retursn adn removes final value
+
+//Loops
+
+for(let i=0; i<5; i++){
+    console.log("LOOK FOR LOOP",i)
+}
+let i = -2
+while(i<0){
+    console.log("LOOK WHILE LOOPS", i)
+    i++
+}
+
+//continue
+//break
+
+//COMAPRSIONS
+//=== and !== DO NOT CONVERT TYPES(SAFE) --> 0 === false IS FALSE
+//== and !+ CONVERT TYPES(UNSAFE) --> 0 == false IS TRUE
+

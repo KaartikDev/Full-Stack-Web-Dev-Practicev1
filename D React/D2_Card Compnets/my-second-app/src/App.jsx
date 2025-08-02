@@ -6,7 +6,7 @@ function App() {
 
     <>
       <Header></Header>
-=
+      <Card></Card>
       <Footer></Footer>
     </>
   )

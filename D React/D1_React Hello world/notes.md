@@ -8,6 +8,7 @@ How to start a project:
 2. Create proj folder
 3. ! npm create vite@latest
 4. name project
+5. select React and then JS
 
 Project Structure
 Node modules:

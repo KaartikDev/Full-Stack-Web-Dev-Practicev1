@@ -1,0 +1,12 @@
+/* Method 1(only for small pages) External CSS
+
+.buttonName {
+  background-color: hsl(200,100%,50%);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+} 
+Bad for when things get complicated and u have many buttons
+*/

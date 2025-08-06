@@ -12,6 +12,10 @@ How to start a project:
 4. name project
 5. select React and then JS
 
+6. navigate to APP folder:
+! npm install
+! npm run dev
+
 Project Structure
 Node modules:
 External libraries/packages
@@ -29,3 +33,7 @@ main.jsx - java sxript XML(JS with fomratting to have html like stuff)
 
 
 React is about compenents and componnets are small amount of JS or HTML
+
+for prop-types do:
+! npm install prop-types
+
